@@ -1,0 +1,20 @@
+{
+  "name": "node-docker-good-defaults",
+  "private": true,
+  "version": "2.0.1",
+  "description": "Docker-compose app",
+  "author": "Nathan Brown",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-watch": "nodemon src/index.js --inspect=0.0.0.0:9229"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "mysql2": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
